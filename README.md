@@ -19,9 +19,9 @@ git revert ...  # revert a change that you have committed
 **Pull from branch or checkout without having to commit**
 
 ```
-git stash
-git pull
-git stash pop
+git stash     # Store the code temporary
+git pull      # Pull or checkout as desired
+git stash pop # Pop the stored code into the current branch
 ```
 
 **Delete a branch both locally and remotely**
