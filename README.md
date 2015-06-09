@@ -23,3 +23,11 @@ git stash
 git pull
 git stash pop
 ```
+
+**Delete a branch both locally and remotely**
+
+```
+git checkout other_than_branch_to_be_deleted
+git branch -D branch_to_be_deleted            # Deletes the local branch
+git push origin --delete branch_to_be_deleted # Deletes the remote branch
+```
