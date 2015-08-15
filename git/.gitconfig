@@ -1,0 +1,4 @@
+[alias]
+
+conflicts = diff --name-only --diff-filter=U
+destroy = "!destroy() { git branch -D $1; git push origin --delete $1; }; destroy"
