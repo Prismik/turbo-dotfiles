@@ -6,3 +6,4 @@ colorscheme monokai
 set smarttab
 set smartindent
 set autoindent
+set number
