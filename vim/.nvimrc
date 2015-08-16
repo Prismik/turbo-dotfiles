@@ -14,6 +14,7 @@ set number
 set showmatch
 set hlsearch
 set laststatus=2
+set noswapfile 
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',
