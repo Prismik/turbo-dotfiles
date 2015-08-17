@@ -5,16 +5,20 @@ colorscheme monokai
 
 set clipboard=unnamed
 set expandtab
+
 set shiftwidth=2
 set softtabstop=2
 set smarttab
 set smartindent
 set autoindent
+
 set number
 set showmatch
 set hlsearch
-set laststatus=2
 set noswapfile 
+set autoread
+
+set laststatus=2
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',
