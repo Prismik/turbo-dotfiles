@@ -1,9 +1,5 @@
 # My aliases and dotfiles
 
-## Aliases
+vim -> Contains my vimrc and plugins
 
-### Git
-
-**Add a conflict listing command alias to git**
-
-`git config --global alias.conflicts "diff --name-only --diff-filter=U"`
+git -> Contains my git aliases and files
