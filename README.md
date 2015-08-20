@@ -1,5 +1,5 @@
 # My aliases and dotfiles
 
-vim -> Contains my vimrc and plugins
-
-git -> Contains my git aliases and files
+> **vim:** Contains neovim configuration, plugins as submodules and colorscheme
+ 
+> **git:** Contains global gitignore and git aliases
