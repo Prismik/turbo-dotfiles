@@ -18,6 +18,9 @@ set hlsearch
 set noswapfile 
 set autoread
 
+set wildmenu
+set wildmode=longest:full,full
+
 set laststatus=2
 
 let g:lightline = {
